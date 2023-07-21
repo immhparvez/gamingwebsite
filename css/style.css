@@ -1,0 +1,10 @@
+* {
+  font-family: "Lato", sans-serif;
+  font-family: "Open Sans", sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-family: "Work Sans", sans-serif;
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
