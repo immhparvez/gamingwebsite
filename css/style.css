@@ -4,7 +4,122 @@
   font-family: "Roboto", sans-serif;
   font-family: "Work Sans", sans-serif;
 }
-.container{
-    width: 1200px;
-    margin: 0 auto;
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+.hero-info-aria h3 {
+  color: #0b0223;
+  font-size: 48px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.hero-info-aria h2 {
+  font-size: 95px;
+  margin: 0px;
+  background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  text-transform: uppercase;
+}
+.click {
+  display: flex;
+  align-items: center;
+  margin-bottom: -20px;
+}
+.fa-play,
+.fa-download,
+.fa-user {
+  color: #ff42a5;
+  margin-right: 10px;
+}
+.click p {
+  color: #534c64;
+  font-size: 20px;
+  font-weight: 500;
+}
+.hero {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+}
+
+.hero img {
+  width: 100%;
+}
+.we-title {
+  text-align: right;
+  font-family: Work Sans;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.p-content {
+  color: #534c64;
+  text-align: right;
+  font-family: Work Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px; /* 166.667% */
+}
+.primary-button {
+  display: inline-flex;
+  padding: 21px 40px;
+  align-items: flex-start;
+  gap: 10px;
+  border-radius: 48px;
+  color: #fff;
+  font-family: Work Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: uppercase;
+  background: var(--linear, linear-gradient(90deg, #ff42a5 0%, #ff42a5 100%));
+}
+.purpose {
+  color: #534c64;
+  text-align: right;
+  font-family: Work Sans;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 45px; /* 187.5% */
+  margin: 0px;
+}
+.gamer-secound-title {
+  color: #534c64;
+  text-align: right;
+  font-family: Work Sans;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 45px; /* 187.5% */
+}
+.btn-container {
+  display: flex;
+  justify-content: flex-end;
+}
+.hero-bg {
+  background-color: #fff9fc;
+  padding: 50px 0;
+}
+.sign-in,
+.gorogue {
+  margin-top: 30px;
+  border: none;
+}
+.gorogue {
+  border-radius: 48px;
+  background: #4ec5f7;
 }

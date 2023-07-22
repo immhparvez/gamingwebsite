@@ -1,0 +1,78 @@
+@media screen and (max-width: 640px) {
+  .container {
+    width: auto;
+  }
+  .header-container {
+    display: flex;
+    flex-direction: column;
+    max-width: auto;
+  }
+  .hero-img-aria {
+    padding-top: 50px;
+  }
+  .menu-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  nav ul {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  .follow-container h3 {
+    margin-right: 0px;
+  }
+  header {
+    background: transparent;
+    box-shadow: none;
+  }
+  .hero {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .hero-info-aria h3 {
+    font-size: 28px;
+  }
+  .hero-info-aria h2 {
+    font-size: 65px;
+  }
+
+  .click p {
+    font-size: 16px;
+  }
+  .primary-button {
+    padding: 15px 30px;
+    font-size: 15px;
+  }
+  .hero-info-aria {
+    background: #fbf7fd;
+    padding: 20px;
+    text-align: center;
+  }
+  .responsive-hero {
+    display: flex;
+    flex-direction: none;
+  }
+  .hero-bg p,
+  h3 {
+    text-align: center;
+  }
+  .btn-container {
+    display: flex;
+    justify-content: center;
+  }
+  .gamer-secound-title {
+    text-align: center !important;
+    color: #534c64;
+    text-align: right;
+    font-family: Work Sans;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 45px;
+  }
+  .we-title {
+    text-align: center;
+  }
+}
