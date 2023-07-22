@@ -123,3 +123,28 @@
   border-radius: 48px;
   background: #4ec5f7;
 }
+.title-gamer-we h3,
+p {
+  text-align: center;
+}
+.title-gamer-we h3 {
+  color: #0b0223;
+  font-size: 48px;
+  font-weight: 700;
+}
+.gamer-items-main img {
+  width: 100%;
+}
+.gamer-items-main {
+  display: flex;
+  gap: 20px;
+}
+.gamer-item h4 {
+  color: #534c64;
+  font-family: Work Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px; /* 150% */
+}
+
