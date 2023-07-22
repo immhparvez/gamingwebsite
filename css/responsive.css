@@ -72,7 +72,8 @@
     font-weight: 500;
     line-height: 45px;
   }
-  .we-title {
+  .we-title,
+  .p-content {
     text-align: center;
   }
   .gamer-items-main {
@@ -81,4 +82,45 @@
     padding: 0px 20px;
     gap: 20px;
   }
+
+  .play-instantly {
+    margin-top: 0px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    align-items: center;
+  }
+
+  .play {
+    padding: 0px 20px;
+  }
+  .play-games-main-section {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .play h3 {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 45px;
+  }
+  .careers-information-aria {
+    padding: 0 20px;
 }
+.careers-information-aria h3 {
+  color: #fff;
+  font-family: Work Sans;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 60px; /* 125% */
+}
+.careers-section-container {
+  grid-template-columns: repeat(1, 1fr);
+}
+.careers-img-aria {
+  width: 90%;
+  text-align: center;
+}
+}
+
+
+
